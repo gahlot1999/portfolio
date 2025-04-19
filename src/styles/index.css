@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-900;
+    @apply leading-relaxed;
+    @apply text-slate-400;
+    @apply antialiased;
+    @apply selection:bg-teal-300;
+    @apply selection:text-teal-900;
+    @apply font-primary;
+  }
+}
