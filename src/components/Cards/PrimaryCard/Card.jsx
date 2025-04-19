@@ -15,7 +15,7 @@ function Card({ children }) {
 }
 
 Card.Header = function ({ children }) {
-  return <div className='z-10 w-32 shrink-0'>{children}</div>;
+  return <div className='z-10 w-40 shrink-0'>{children}</div>;
 };
 
 Card.Content = function ({ children }) {

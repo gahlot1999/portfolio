@@ -1,5 +1,6 @@
 import About from '../About/About';
 import Experience from '../Experience/Experience';
+import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
 
 function Main({ sectionRefs }) {
@@ -28,6 +29,8 @@ function Main({ sectionRefs }) {
       >
         <Projects />
       </section>
+
+      <Footer />
     </main>
   );
 }

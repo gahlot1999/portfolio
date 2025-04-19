@@ -12,6 +12,7 @@ function Experience() {
             <Card>
               <Card.Header>
                 <Card.Timeline date={item.date} />
+                {item.imgSrc && <Card.HeroImg imgSrc={item.imgSrc} />}
               </Card.Header>
               <Card.Content>
                 <Card.Title link={item.title.link}>

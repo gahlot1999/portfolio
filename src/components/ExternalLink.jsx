@@ -1,5 +1,5 @@
 function ExternalLink(props) {
-  const { children, newTab = false, link, ariaLabel } = props;
+  const { children, newTab = true, link, ariaLabel } = props;
 
   return (
     <a

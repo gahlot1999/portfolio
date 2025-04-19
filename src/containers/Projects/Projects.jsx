@@ -13,6 +13,7 @@ function Projects() {
             <Card.Content>
               <Card.Title link={item.title.link}>{item.title.name}</Card.Title>
               <Card.Description>{item.description}</Card.Description>
+              {item.tags && <Card.Tags tags={item.tags} />}
             </Card.Content>
           </Card>
         </li>
