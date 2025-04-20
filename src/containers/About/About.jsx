@@ -1,8 +1,12 @@
 import ExternalLink from '../../components/ExternalLink';
+import Heading from '../../components/Heading';
 
 function About() {
   return (
     <div className='text-pretty'>
+      <div className='lg:sr-only mb-4 sticky top-0 z-20 -mx-6 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur'>
+        <Heading type='h4'>ABOUT</Heading>
+      </div>
       <p className='mb-4 '>
         I’m a developer who loves building clean, accessible, and
         performance-focused user interfaces. I enjoy working at the sweet spot

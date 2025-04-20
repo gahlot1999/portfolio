@@ -1,4 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { MdMail } from 'react-icons/md';
 
 const socialMediaLinks = [
   {
@@ -12,6 +13,10 @@ const socialMediaLinks = [
   {
     icon: <FaInstagram size={24} />,
     link: 'https://www.instagram.com/gahlot1999/',
+  },
+  {
+    icon: <MdMail size={26} />,
+    link: 'mailto:gahlo1999@gmail.com',
   },
 ];
 

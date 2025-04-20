@@ -49,6 +49,14 @@ function Heading(props) {
       </h3>
     );
   }
+
+  if (type === 'h4') {
+    return (
+      <h4 className='text-sm font-bold leading-snug text-slate-300 tracking-widest'>
+        {children}
+      </h4>
+    );
+  }
 }
 
 export default Heading;

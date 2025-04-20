@@ -17,7 +17,7 @@ function BgGradient() {
 
   return (
     <div
-      className='pointer-events-none fixed inset-0 z-999 transition duration-300'
+      className='pointer-events-none fixed inset-0 z-999 transition duration-300 hidden lg:block'
       style={{
         background: `radial-gradient(600px at ${mousePosition[0]}px ${mousePosition[1]}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
       }}
