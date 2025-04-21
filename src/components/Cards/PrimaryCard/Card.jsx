@@ -8,7 +8,7 @@ import Title from './Title';
 function Card({ children }) {
   return (
     <div className='group flex flex-col lg:flex-row lg:gap-4 relative mb-12 transition-all lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
-      <div className='absolute z-0 -inset-x-4 -inset-y-4 hiddens rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
+      <div className='absolute z-0 -inset-x-4 -inset-y-4 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
       {children}
     </div>
   );
